@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Formulario de Salud Mental</title>
+  <link rel="stylesheet" href="./style_home.css">
+</head>
+<body>
+
+  <header>
+    <h1>Formulario de Salud Mental</h1>
+  </header>
+
+  <nav>
+    <a href="./home.html">Inicio</a>
+    <a href="./agenda.html">Ver agenda</a>
+    <a href="./agregar_evento.html">Agregar evento</a>
+    <a href="./perfil.html">Ver perfil</a>
+    <a href="#">Acerca de</a>
+    <a href="#">Servicios</a>
+    <a href="#">Contacto</a>
+  </nav>
+
+  <main class="eventos">
+    <h2 class="discreto">Evaluación Emocional</h2>
+    <form action="./personalizar.html">
+      <label for="sueno">¿Cuántas horas duermes en promedio por noche?</label>
+      <input type="number" id="sueno" name="sueno" step="0.1" min="0" />
+
+      <label for="estres">¿Cómo describirías tu nivel de estrés actual?</label>
+      <select id="estres" name="estres">
+        <option value="bajo">Bajo</option>
+        <option value="moderado">Moderado</option>
+        <option value="alto">Alto</option>
+      </select>
+
+      <label for="estado_animo">¿Cómo describirías tu estado de ánimo general esta semana?</label>
+      <select id="estado_animo" name="estado_animo">
+        <option value="positivo">Positivo</option>
+        <option value="neutral">Neutral</option>
+        <option value="negativo">Negativo</option>
+      </select>
+
+      <label for="ansiedad">¿Con qué frecuencia experimentas ansiedad o preocupación?</label>
+      <select id="ansiedad" name="ansiedad">
+        <option value="nunca">Nunca</option>
+        <option value="ocasional">Ocasionalmente</option>
+        <option value="frecuente">Frecuentemente</option>
+        <option value="constante">Constante</option>
+      </select>
+
+      <label for="motivacion">¿Te sientes motivado para realizar tus actividades diarias?</label>
+      <select id="motivacion" name="motivacion">
+        <option value="siempre">Siempre</option>
+        <option value="a_veces">A veces</option>
+        <option value="rara_vez">Rara vez</option>
+      </select>
+
+      <label for="actividades">¿Realizas alguna actividad que te ayude a relajarte o desestresarte?</label>
+      <textarea id="actividades" name="actividades" rows="3" placeholder="Ej. meditación, música, ejercicio, tiempo con amigos..."></textarea>
+
+        <h2 class="discreto">Ranking de Cansancio Mental por Actividad</h2>
+
+        <p>Califica de 1 (muy ligero) a 5 (extenuante) el nivel de carga mental que sientes en cada una de las siguientes actividades:</p>
+
+        <label for="trabajo">Trabajo profesional o académico</label>
+        <select id="trabajo" name="trabajo">
+        <option value="1">1 - Muy ligero</option>
+        <option value="2">2</option>
+        <option value="3">3 - Moderado</option>
+        <option value="4">4</option>
+        <option value="5">5 - Extenuante</option>
+        </select>
+
+        <label for="socializar">Interacción social</label>
+        <select id="socializar" name="socializar">
+        <option value="1">1 - Muy ligero</option>
+        <option value="2">2</option>
+        <option value="3">3 - Moderado</option>
+        <option value="4">4</option>
+        <option value="5">5 - Extenuante</option>
+        </select>
+
+        <label for="tareas_hogar">Tareas del hogar</label>
+        <select id="tareas_hogar" name="tareas_hogar">
+        <option value="1">1 - Muy ligero</option>
+        <option value="2">2</option>
+        <option value="3">3 - Moderado</option>
+        <option value="4">4</option>
+        <option value="5">5 - Extenuante</option>
+        </select>
+
+        <label for="uso_tecnologia">Uso intensivo de tecnología (pantallas, redes, apps)</label>
+        <select id="uso_tecnologia" name="uso_tecnologia">
+        <option value="1">1 - Muy ligero</option>
+        <option value="2">2</option>
+        <option value="3">3 - Moderado</option>
+        <option value="4">4</option>
+        <option value="5">5 - Extenuante</option>
+        </select>
+
+        <label for="actividades_cognitivas">Actividades cognitivas (leer, estudiar, resolver problemas)</label>
+        <select id="actividades_cognitivas" name="actividades_cognitivas">
+        <option value="1">1 - Muy ligero</option>
+        <option value="2">2</option>
+        <option value="3">3 - Moderado</option>
+        <option value="4">4</option>
+        <option value="5">5 - Extenuante</option>
+        </select>
+
+      <label for="comentarios">Comentarios adicionales:</label>
+      <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mi Sitio Web. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>

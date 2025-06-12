@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Agendar Cita con Profesional de la Salud</title>
+  <link rel="stylesheet" href="./style_home.css">
+</head>
+<body>
+
+  <header>
+    <h1>Agendar Cita con Profesional de la Salud</h1>
+  </header>
+
+  <nav>
+    <a href="./home.html">Inicio</a>
+    <a href="./agenda.html">Ver agenda</a>
+    <a href="./agregar_evento.html">Agregar evento</a>
+    <a href="./perfil.html">Ver perfil</a>
+    <a href="#">Acerca de</a>
+    <a href="#">Servicios</a>
+    <a href="#">Contacto</a>
+  </nav>
+
+  <main class="eventos">
+    <form action="./personalizar.html">
+      <label for="fecha">Fecha preferida:</label>
+      <input type="date" id="fecha" name="fecha" required />
+
+      <label for="hora">Hora preferida:</label>
+      <input type="time" id="hora" name="hora" required />
+
+      <button type="submit">Agendar Cita</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Mi Sitio Web. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>

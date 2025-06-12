@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #0077cc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #005fa3;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main.agenda {
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: left;
+}
+
+main.eventos {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0077cc;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
+
+footer {
+    background-color: #ddd;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+h2 {
+    color: #0077cc;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+h2.discreto {
+    color: #0077cc;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.metric {
+    margin: 8px 0;
+}
+
+.evento {
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-left: 6px solid #0077cc;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.evento.personal {
+    border-left-color: #28a745;
+}
+
+.evento.profesional {
+    border-left-color: #dc3545;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.metric-bar {
+    height: 10px;
+    border-radius: 5px;
+    margin: 4px 0;
+    background-color: #e0e0e0;
+}
+
+.energia {
+    background-color: #28a745;
+}
+
+.cansancio {
+    background-color: #dc3545;
+}
+
+.bar {
+    height: 10px;
+    border-radius: 5px;
+}
+
